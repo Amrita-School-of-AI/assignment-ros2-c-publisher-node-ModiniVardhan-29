@@ -1,0 +1,33 @@
+[0.031s] Invoking command in '/home/modini/ros2_ws/build/ros2_hello_world': /usr/bin/cmake /home/modini/ros2_ws/src/simple-hello-world-node-ModiniVardhan-29 -DCMAKE_INSTALL_PREFIX=/home/modini/ros2_ws/install/ros2_hello_world
+[0.397s] -- The C compiler identification is GNU 11.4.0
+[0.679s] -- The CXX compiler identification is GNU 11.4.0
+[0.694s] -- Detecting C compiler ABI info
+[0.867s] -- Detecting C compiler ABI info - done
+[0.869s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.889s] -- Detecting C compile features
+[0.889s] -- Detecting C compile features - done
+[0.889s] -- Detecting CXX compiler ABI info
+[1.053s] -- Detecting CXX compiler ABI info - done
+[1.065s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.065s] -- Detecting CXX compile features
+[1.065s] -- Detecting CXX compile features - done
+[1.096s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.097s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.097s]   has asked CMake to find a package configuration file provided by
+[1.097s]   "ament_cmake", but CMake did not find one.
+[1.097s] 
+[1.098s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.099s]   any of the following names:
+[1.100s] 
+[1.101s]     ament_cmakeConfig.cmake
+[1.101s]     ament_cmake-config.cmake
+[1.101s] 
+[1.102s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.102s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.103s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.104s]   has been installed.
+[1.105s] 
+[1.106s] [0m
+[1.106s] -- Configuring incomplete, errors occurred!
+[1.107s] See also "/home/modini/ros2_ws/build/ros2_hello_world/CMakeFiles/CMakeOutput.log".
+[1.107s] Invoked command in '/home/modini/ros2_ws/build/ros2_hello_world' returned '1': /usr/bin/cmake /home/modini/ros2_ws/src/simple-hello-world-node-ModiniVardhan-29 -DCMAKE_INSTALL_PREFIX=/home/modini/ros2_ws/install/ros2_hello_world

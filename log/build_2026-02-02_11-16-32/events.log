@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000463] (ros2_publisher) JobQueued: {'identifier': 'ros2_publisher', 'dependencies': OrderedDict()}
+[0.000613] (ros2_publisher) JobStarted: {'identifier': 'ros2_publisher'}
+[0.038842] (ros2_publisher) JobProgress: {'identifier': 'ros2_publisher', 'progress': 'cmake'}
+[0.050615] (ros2_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/modini/ros2_ws/src/ros2_publisher', '-DCMAKE_INSTALL_PREFIX=/home/modini/ros2_ws/install/ros2_publisher'], 'cwd': '/home/modini/ros2_ws/build/ros2_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'modini'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/modini'), ('OLDPWD', '/home/modini/ros2_ws/src/ros2_publisher'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/modini/bumper_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'modini'), ('_', '/home/modini/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'modini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/modini/bumper_ws/install/bumper_bot/bin:/opt/ros/humble/bin:/home/modini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/modini/.local/bin'), ('SESSION_MANAGER', 'local/modini-VirtualBox:@/tmp/.ICE-unix/1408,unix/modini-VirtualBox:/tmp/.ICE-unix/1408'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/abf4bf7f_47b1_49c1_869c_6a9d9238a665'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XVE8J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/modini/bumper_ws/install/bumper_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/modini/ros2_ws/build/ros2_publisher'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/modini/bumper_ws/install/bumper_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/modini/bumper_ws/install/bumper_bot:/opt/ros/humble')]), 'shell': False}
+[0.081039] (ros2_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.106661] (-) TimerEvent: {}
+[0.209123] (-) TimerEvent: {}
+[0.320070] (-) TimerEvent: {}
+[0.404610] (ros2_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.421445] (-) TimerEvent: {}
+[0.462502] (ros2_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.470361] (ros2_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.486597] (ros2_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.505218] (ros2_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.526283] (ros2_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.526486] (-) TimerEvent: {}
+[0.599726] (ros2_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.623886] (ros2_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.630492] (-) TimerEvent: {}
+[0.732218] (-) TimerEvent: {}
+[0.835452] (ros2_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.835695] (-) TimerEvent: {}
+[0.948188] (ros2_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.948421] (-) TimerEvent: {}
+[1.049414] (-) TimerEvent: {}
+[1.123131] (ros2_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.124412] (ros2_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.124642] (ros2_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.127131] (ros2_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.129194] (ros2_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.129442] (ros2_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.130644] (ros2_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.132738] (ros2_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.152036] (-) TimerEvent: {}
+[1.160547] (ros2_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.168825] (ros2_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/modini/ros2_ws/build/ros2_publisher\n'}
+[1.198216] (ros2_publisher) CommandEnded: {'returncode': 0}
+[1.199825] (ros2_publisher) JobProgress: {'identifier': 'ros2_publisher', 'progress': 'build'}
+[1.199887] (ros2_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/modini/ros2_ws/build/ros2_publisher', '--', '-j4', '-l4'], 'cwd': '/home/modini/ros2_ws/build/ros2_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'modini'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/modini'), ('OLDPWD', '/home/modini/ros2_ws/src/ros2_publisher'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/modini/bumper_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'modini'), ('_', '/home/modini/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'modini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/modini/bumper_ws/install/bumper_bot/bin:/opt/ros/humble/bin:/home/modini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/modini/.local/bin'), ('SESSION_MANAGER', 'local/modini-VirtualBox:@/tmp/.ICE-unix/1408,unix/modini-VirtualBox:/tmp/.ICE-unix/1408'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/abf4bf7f_47b1_49c1_869c_6a9d9238a665'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XVE8J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/modini/bumper_ws/install/bumper_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/modini/ros2_ws/build/ros2_publisher'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/modini/bumper_ws/install/bumper_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/modini/bumper_ws/install/bumper_bot:/opt/ros/humble')]), 'shell': False}
+[1.257439] (-) TimerEvent: {}
+[1.361541] (-) TimerEvent: {}
+[1.381668] (ros2_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[1.479175] (-) TimerEvent: {}
+[1.581009] (-) TimerEvent: {}
+[1.696981] (-) TimerEvent: {}
+[1.811170] (-) TimerEvent: {}
+[1.916840] (-) TimerEvent: {}
+[2.019117] (-) TimerEvent: {}
+[2.120534] (-) TimerEvent: {}
+[2.221384] (-) TimerEvent: {}
+[2.323244] (-) TimerEvent: {}
+[2.437143] (-) TimerEvent: {}
+[2.539904] (-) TimerEvent: {}
+[2.641862] (-) TimerEvent: {}
+[2.743678] (-) TimerEvent: {}
+[2.844528] (-) TimerEvent: {}
+[2.945824] (-) TimerEvent: {}
+[3.051491] (-) TimerEvent: {}
+[3.154181] (-) TimerEvent: {}
+[3.255423] (-) TimerEvent: {}
+[3.359272] (-) TimerEvent: {}
+[3.465030] (-) TimerEvent: {}
+[3.566935] (-) TimerEvent: {}
+[3.671384] (-) TimerEvent: {}
+[3.784517] (-) TimerEvent: {}
+[3.938354] (-) TimerEvent: {}
+[4.167240] (-) TimerEvent: {}
+[4.503622] (-) TimerEvent: {}
+[4.689408] (-) TimerEvent: {}
+[4.885303] (-) TimerEvent: {}
+[5.133682] (-) TimerEvent: {}
+[5.419194] (-) TimerEvent: {}
+[5.521302] (-) TimerEvent: {}
+[5.623221] (-) TimerEvent: {}
+[5.729017] (-) TimerEvent: {}
+[5.842192] (-) TimerEvent: {}
+[5.951376] (-) TimerEvent: {}
+[6.054585] (-) TimerEvent: {}
+[6.163482] (-) TimerEvent: {}
+[6.277218] (-) TimerEvent: {}
+[6.384216] (-) TimerEvent: {}
+[6.507101] (-) TimerEvent: {}
+[6.613178] (-) TimerEvent: {}
+[6.723132] (-) TimerEvent: {}
+[6.825036] (-) TimerEvent: {}
+[6.946262] (-) TimerEvent: {}
+[7.053978] (-) TimerEvent: {}
+[7.158615] (-) TimerEvent: {}
+[7.261862] (-) TimerEvent: {}
+[7.365346] (-) TimerEvent: {}
+[7.468281] (-) TimerEvent: {}
+[7.588079] (-) TimerEvent: {}
+[7.714208] (-) TimerEvent: {}
+[7.819000] (-) TimerEvent: {}
+[7.930902] (-) TimerEvent: {}
+[8.031833] (-) TimerEvent: {}
+[8.138166] (-) TimerEvent: {}
+[8.243136] (-) TimerEvent: {}
+[8.348666] (-) TimerEvent: {}
+[8.450772] (-) TimerEvent: {}
+[8.561160] (-) TimerEvent: {}
+[8.666163] (-) TimerEvent: {}
+[8.770107] (-) TimerEvent: {}
+[8.875152] (-) TimerEvent: {}
+[8.976605] (-) TimerEvent: {}
+[9.086138] (-) TimerEvent: {}
+[9.196058] (-) TimerEvent: {}
+[9.305666] (-) TimerEvent: {}
+[9.408067] (-) TimerEvent: {}
+[9.513634] (-) TimerEvent: {}
+[9.620199] (-) TimerEvent: {}
+[9.735732] (-) TimerEvent: {}
+[9.843082] (-) TimerEvent: {}
+[9.957641] (-) TimerEvent: {}
+[10.059250] (-) TimerEvent: {}
+[10.162134] (-) TimerEvent: {}
+[10.263286] (-) TimerEvent: {}
+[10.368728] (-) TimerEvent: {}
+[10.471274] (-) TimerEvent: {}
+[10.572861] (-) TimerEvent: {}
+[10.680084] (-) TimerEvent: {}
+[10.782209] (-) TimerEvent: {}
+[10.900780] (-) TimerEvent: {}
+[11.008707] (-) TimerEvent: {}
+[11.109880] (-) TimerEvent: {}
+[11.222158] (-) TimerEvent: {}
+[11.333054] (-) TimerEvent: {}
+[11.442611] (-) TimerEvent: {}
+[11.545109] (-) TimerEvent: {}
+[11.651679] (-) TimerEvent: {}
+[11.770846] (-) TimerEvent: {}
+[11.876305] (-) TimerEvent: {}
+[11.984677] (-) TimerEvent: {}
+[12.098744] (-) TimerEvent: {}
+[12.205343] (-) TimerEvent: {}
+[12.310630] (-) TimerEvent: {}
+[12.416522] (-) TimerEvent: {}
+[12.520054] (-) TimerEvent: {}
+[12.625416] (-) TimerEvent: {}
+[12.744143] (-) TimerEvent: {}
+[12.850193] (-) TimerEvent: {}
+[12.959104] (-) TimerEvent: {}
+[13.096119] (-) TimerEvent: {}
+[13.150753] (ros2_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[13.196486] (-) TimerEvent: {}
+[13.297410] (-) TimerEvent: {}
+[13.398918] (-) TimerEvent: {}
+[13.503520] (-) TimerEvent: {}
+[13.604665] (-) TimerEvent: {}
+[13.719691] (-) TimerEvent: {}
+[13.841254] (-) TimerEvent: {}
+[13.886796] (ros2_publisher) StdoutLine: {'line': b'[100%] Built target publisher_node\n'}
+[13.942511] (-) TimerEvent: {}
+[13.945936] (ros2_publisher) CommandEnded: {'returncode': 0}
+[13.947712] (ros2_publisher) JobProgress: {'identifier': 'ros2_publisher', 'progress': 'install'}
+[13.984243] (ros2_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/modini/ros2_ws/build/ros2_publisher'], 'cwd': '/home/modini/ros2_ws/build/ros2_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'modini'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/modini'), ('OLDPWD', '/home/modini/ros2_ws/src/ros2_publisher'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/modini/bumper_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'modini'), ('_', '/home/modini/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'modini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/modini/bumper_ws/install/bumper_bot/bin:/opt/ros/humble/bin:/home/modini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/modini/.local/bin'), ('SESSION_MANAGER', 'local/modini-VirtualBox:@/tmp/.ICE-unix/1408,unix/modini-VirtualBox:/tmp/.ICE-unix/1408'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/abf4bf7f_47b1_49c1_869c_6a9d9238a665'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XVE8J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/modini/bumper_ws/install/bumper_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/modini/ros2_ws/build/ros2_publisher'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/modini/bumper_ws/install/bumper_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/modini/bumper_ws/install/bumper_bot:/opt/ros/humble')]), 'shell': False}
+[14.009182] (ros2_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.012220] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/lib/ros2_publisher/publisher_node\n'}
+[14.018081] (ros2_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/modini/ros2_ws/install/ros2_publisher/lib/ros2_publisher/publisher_node" to ""\n'}
+[14.018371] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ament_index/resource_index/package_run_dependencies/ros2_publisher\n'}
+[14.019453] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ament_index/resource_index/parent_prefix_path/ros2_publisher\n'}
+[14.019601] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/environment/ament_prefix_path.sh\n'}
+[14.020431] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/environment/ament_prefix_path.dsv\n'}
+[14.020585] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/environment/path.sh\n'}
+[14.021474] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/environment/path.dsv\n'}
+[14.022151] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/local_setup.bash\n'}
+[14.022319] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/local_setup.sh\n'}
+[14.022433] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/local_setup.zsh\n'}
+[14.022521] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/local_setup.dsv\n'}
+[14.022607] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/package.dsv\n'}
+[14.022736] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ament_index/resource_index/packages/ros2_publisher\n'}
+[14.022840] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/cmake/ros2_publisherConfig.cmake\n'}
+[14.024420] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/cmake/ros2_publisherConfig-version.cmake\n'}
+[14.024680] (ros2_publisher) StdoutLine: {'line': b'-- Installing: /home/modini/ros2_ws/install/ros2_publisher/share/ros2_publisher/package.xml\n'}
+[14.029274] (ros2_publisher) CommandEnded: {'returncode': 0}
+[14.043713] (-) TimerEvent: {}
+[14.120617] (ros2_publisher) JobEnded: {'identifier': 'ros2_publisher', 'rc': 0}
+[14.122193] (-) EventReactorShutdown: {}

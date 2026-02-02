@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.011312] (ros2_hello_world) JobQueued: {'identifier': 'ros2_hello_world', 'dependencies': OrderedDict()}
+[0.011373] (ros2_hello_world) JobStarted: {'identifier': 'ros2_hello_world'}
+[0.047581] (ros2_hello_world) JobProgress: {'identifier': 'ros2_hello_world', 'progress': 'cmake'}
+[0.052940] (ros2_hello_world) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/home/modini/.local/lib/python3.10/site-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/home/modini/.local/lib/python3.10/site-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/home/modini/.local/lib/python3.10/site-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/home/modini/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/home/modini/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/build.py", line 169, in _reconfigure\n    raise RuntimeError("Could not find \'cmake\' executable")\nRuntimeError: Could not find \'cmake\' executable\n'}
+[0.053572] (ros2_hello_world) JobEnded: {'identifier': 'ros2_hello_world', 'rc': 1}
+[0.063637] (-) EventReactorShutdown: {}
