@@ -1,2 +1,0 @@
-Invoking command in '/home/modini/ros2_ws/build/ros2_hello_world': /usr/bin/cmake /home/modini/ros2_ws/src/simple-hello-world-node-ModiniVardhan-29 -DCMAKE_INSTALL_PREFIX=/home/modini/ros2_ws/install/ros2_hello_world
-Invoked command in '/home/modini/ros2_ws/build/ros2_hello_world' returned '1': /usr/bin/cmake /home/modini/ros2_ws/src/simple-hello-world-node-ModiniVardhan-29 -DCMAKE_INSTALL_PREFIX=/home/modini/ros2_ws/install/ros2_hello_world
